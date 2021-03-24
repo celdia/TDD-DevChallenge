@@ -1,0 +1,61 @@
+[
+    {
+        "reponses": {
+            "Quels langages de programmation utilisez-vous": [
+                "PHP",
+                "Python",
+                "JavaScript"
+            ]            
+        }
+    },
+
+    {
+        "reponses": {
+            "Quels langages de programmation utilisez-vous": [
+                "Java",
+                "C++",
+                "PHP"
+            ]            
+        }
+
+    },
+
+    {
+        "reponses": {
+            "Quels langages de programmation utilisez-vous": [
+                "C#",
+                "Python",
+                "JS"
+            ]            
+        }
+
+
+    },
+
+    {
+        "reponses": {
+            "Quels langages de programmation utilisez-vous": [
+                "Go",
+                "Node JS",
+                "JavaScript"
+            ]
+            
+        }
+
+
+    },
+
+    {
+        "reponses": {
+            "Quels langages de programmation utilisez-vous": [
+                ".Net",
+                "Java",
+                "JavaScript",
+                "PHP"
+            ]
+            
+        }
+
+
+    }
+]

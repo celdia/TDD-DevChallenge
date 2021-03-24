@@ -1,0 +1,29 @@
+{
+    "name": "celdia/tests_pl",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cellou",
+            "email": "celloud9@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "/src"
+        }        
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "/tests"
+        }
+    },
+
+
+
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
