@@ -25,7 +25,8 @@
             "Quels langages de programmation utilisez-vous": [
                 "C#",
                 "Python",
-                "JS"
+                "JS",
+                "PHP"
             ]            
         }
 
@@ -50,7 +51,6 @@
             "Quels langages de programmation utilisez-vous": [
                 ".Net",
                 "Java",
-                "JavaScript",
                 "PHP"
             ]
             

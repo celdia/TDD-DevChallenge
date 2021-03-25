@@ -4,7 +4,7 @@
             "Quels langages de programmation utilisez-vous": [
                 "C",
                 "C++",
-                "C"
+                "C#"
             ]
             
         }
@@ -15,7 +15,7 @@
     {
         "reponses": {
             "Quels langages de programmation utilisez-vous": [
-                "PHP",
+                "C++",
                 "Go",
                 "Rust",
                 "JavaScript"
