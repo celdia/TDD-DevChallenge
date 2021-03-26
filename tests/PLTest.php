@@ -12,8 +12,7 @@ class PLTest extends TestCase
     public function testPopularPL(int $fileNumber, string $expected)
     {
         
-        $data = file_get_contents(__DIR__ . "/../data/responses-$fileNumber.json");
-        //var_dump($data);       
+        $data = file_get_contents(__DIR__ . "/../data/responses-$fileNumber.json");               
 
         $responses = json_decode($data, true);
 
