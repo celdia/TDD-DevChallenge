@@ -4,14 +4,16 @@ namespace Test;
 
 use PHPUnit\Framework\TestCase;
 
-use function PHPUnit\Framework\assertEquals;
 
-require_once __DIR__ . '/../src/pl.php';
+require __DIR__ . '/../src/pl.php';
 
-class PLTest extends TestCase {
-    public function testPopularLP(int $fileNumber, $expected)
+class PLTest extends TestCase 
+{
+    public function testPopularPL(int $fileNumber, string $expected)
     {
-        $data = file_get_contents(__DIR__ . '../data/responses_$fileNumber.json');
+        
+        $data = file_get_contents(__DIR__ . "/../data/responses-$fileNumber.json");
+        //var_dump($data);       
 
         $responses = json_decode($data, true);
 
@@ -19,12 +21,12 @@ class PLTest extends TestCase {
 
     }
 
-    public function dataPopularPl(): array 
+    public function dataPopularPL(): array 
     {
         return [
-            'response_1'=> [1, 'PHP'],
-            'response_2'=> [2, 'JavaScript'],
-            'response_3'=> [3, 'C++'],
+            'responses-1'=> [1, 'PHP'],
+            'responses-2'=> [2, 'JavaScript'],
+            'responses-3'=> [3, 'C++'],
         ]; 
     }
 }
