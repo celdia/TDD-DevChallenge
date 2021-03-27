@@ -9,7 +9,7 @@ require __DIR__ . '/../src/pl.php';
 
 class PLTest extends TestCase 
 {
-    public function testPopularPL(int $fileNumber, string $expected)
+    public function testPopularPL(int $fileNumber, string $expected): string
     {
         
         $data = file_get_contents(__DIR__ . "/../data/responses-$fileNumber.json");               
